@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Event
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Event
+   ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Corrade.Events.Event">
+  
+  
+  <h1 id="Corrade_Events_Event" data-uid="Corrade.Events.Event" class="text-break">Class Event
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Event</span></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AgentDataUpdate.html">AgentDataUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AlertMessage.html">AlertMessage</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AnimationsChanged.html">AnimationsChanged</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AttachedSound.html">AttachedSound</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AttachedSoundGainChanged.html">AttachedSoundGainChanged</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AvatarAction.html">AvatarAction</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AvatarAppearance.html">AvatarAppearance</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AvatarGroupsReply.html">AvatarGroupsReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AvatarSitChanged.html">AvatarSitChanged</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.AvatarUpdate.html">AvatarUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ChatFromSimulator.html">ChatFromSimulator</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ChatSessionMembership.html">ChatSessionMembership</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.CoarseLocationUpdate.html">CoarseLocationUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ConfigurationFileChanged.html">ConfigurationFileChanged</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.DisplayNameUpdate.html">DisplayNameUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.EstateBansReply.html">EstateBansReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.EstateGroupsReply.html">EstateGroupsReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.EstateManagersReply.html">EstateManagersReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.EstateUsersReply.html">EstateUsersReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.EventQueueRunning.html">EventQueueRunning</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendOffline.html">FriendOffline</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendOnline.html">FriendOnline</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendRightsUpdate.html">FriendRightsUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendshipOffered.html">FriendshipOffered</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendshipResponse.html">FriendshipResponse</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.FriendshipTerminated.html">FriendshipTerminated</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.GroupMemberJoined.html">GroupMemberJoined</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.GroupMemberParted.html">GroupMemberParted</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.GroupSoftBanUpdate.html">GroupSoftBanUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.IM.html">IM</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.InventoryObjectAdded.html">InventoryObjectAdded</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.InventoryObjectOffered.html">InventoryObjectOffered</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.InventoryObjectRemoved.html">InventoryObjectRemoved</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.InventoryObjectUpdated.html">InventoryObjectUpdated</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ItemReceived.html">ItemReceived</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.KillObject.html">KillObject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.LoadURL.html">LoadURL</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.LocationUpdate.html">LocationUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.LoggedOut.html">LoggedOut</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.LoginProgress.html">LoginProgress</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.LookAtEffect.html">LookAtEffect</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.MapFriendMovement.html">MapFriendMovement</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.MeanCollision.html">MeanCollision</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.MoneyBalance.html">MoneyBalance</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.MoneyBalanceReply.html">MoneyBalanceReply</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ObjectUpdate.html">ObjectUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ParcelMapDownloaded.html">ParcelMapDownloaded</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ParticleUpdate.html">ParticleUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.PointAtEffect.html">PointAtEffect</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.PreloadSound.html">PreloadSound</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.RegionCrossed.html">RegionCrossed</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ScriptControlChange.html">ScriptControlChange</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ScriptDialog.html">ScriptDialog</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ScriptQuestion.html">ScriptQuestion</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.SimChanged.html">SimChanged</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.SimConnected.html">SimConnected</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.SimDisconnected.html">SimDisconnected</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.SoundTrigger.html">SoundTrigger</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.TaskItemReceived.html">TaskItemReceived</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.TeleportProgress.html">TeleportProgress</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.TerseObjectUpdate.html">TerseObjectUpdate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Events.ViewerEffect.html">ViewerEffect</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Corrade.Events.html">Corrade.Events</a></h6>
+  <h6><strong>Assembly</strong>: Corrade.dll</h6>
+  <h5 id="Corrade_Events_Event_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Event : IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Corrade_Events_Event__ctor_" data-uid="Corrade.Events.Event.#ctor*"></a>
+  <h4 id="Corrade_Events_Event__ctor_Corrade_Corrade_Corrade_Configuration_Configuration_Corrade_Logging_Log_System_Threading_CancellationToken_" data-uid="Corrade.Events.Event.#ctor(Corrade.Corrade,Corrade.Configuration.Configuration,Corrade.Logging.Log,System.Threading.CancellationToken)">Event(Corrade, Configuration, Log, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Event(Corrade corrade, Configuration configuration, Log log, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Corrade.html">Corrade</a></td>
+        <td><span class="parametername">corrade</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Corrade.Configuration.Configuration.html">Configuration</a></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Corrade.Logging.Log.html">Log</a></td>
+        <td><span class="parametername">log</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Corrade_Events_Event_CancellationToken_" data-uid="Corrade.Events.Event.CancellationToken*"></a>
+  <h4 id="Corrade_Events_Event_CancellationToken" data-uid="Corrade.Events.Event.CancellationToken">CancellationToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CancellationToken CancellationToken { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Events_Event_Configuration_" data-uid="Corrade.Events.Event.Configuration*"></a>
+  <h4 id="Corrade_Events_Event_Configuration" data-uid="Corrade.Events.Event.Configuration">Configuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Configuration Configuration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Configuration.Configuration.html">Configuration</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Events_Event_Corrade_" data-uid="Corrade.Events.Event.Corrade*"></a>
+  <h4 id="Corrade_Events_Event_Corrade" data-uid="Corrade.Events.Event.Corrade">Corrade</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Corrade Corrade { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Corrade.html">Corrade</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Events_Event_Log_" data-uid="Corrade.Events.Event.Log*"></a>
+  <h4 id="Corrade_Events_Event_Log" data-uid="Corrade.Events.Event.Log">Log</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Log Log { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Logging.Log.html">Log</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Corrade_Events_Event_Dispose_" data-uid="Corrade.Events.Event.Dispose*"></a>
+  <h4 id="Corrade_Events_Event_Dispose" data-uid="Corrade.Events.Event.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="Corrade_Events_Event_Dispose_" data-uid="Corrade.Events.Event.Dispose*"></a>
+  <h4 id="Corrade_Events_Event_Dispose_System_Boolean_" data-uid="Corrade.Events.Event.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFP__1___0_System_String_">Reflection.GetFP&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFPInfo__1___0_System_String_">Reflection.GetFPInfo&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetPropertiesInfo__1___0_">Reflection.GetPropertiesInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFieldsInfo__1___0_">Reflection.GetFieldsInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_SerializeObject_System_Object_">ScriptSerializer.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectFromCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectFromCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectToCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectToCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_PreviousPowerOfTwo__1___0_">BitTwiddling.PreviousPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_IsPowerOfTwo__1___0_">BitTwiddling.IsPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

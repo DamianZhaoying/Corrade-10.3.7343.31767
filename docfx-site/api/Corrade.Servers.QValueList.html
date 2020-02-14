@@ -1,0 +1,747 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class QValueList
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class QValueList
+   ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Corrade.Servers.QValueList">
+  
+  
+  <h1 id="Corrade_Servers_QValueList" data-uid="Corrade.Servers.QValueList" class="text-break">Class QValueList
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div class="level2"><span class="xref">QValueList</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div><span class="xref">System.Collections.IList</span></div>
+    <div><span class="xref">System.Collections.ICollection</span></div>
+    <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.get_Item(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.set_Item(System.Int32, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.Add(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.AsReadOnly()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.BinarySearch(System.Int32, System.Int32, Corrade.Servers.QValue, System.Collections.Generic.IComparer&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.BinarySearch(Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.BinarySearch(Corrade.Servers.QValue, System.Collections.Generic.IComparer&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Contains(Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.Contains(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.ConvertAll&lt;TOutput&gt;(System.Converter&lt;Corrade.Servers.QValue, TOutput&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.CopyTo(Corrade.Servers.QValue[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.CopyTo(System.Int32, Corrade.Servers.QValue[], System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.CopyTo(Corrade.Servers.QValue[], System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Exists(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Find(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindAll(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindIndex(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindIndex(System.Int32, System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindIndex(System.Int32, System.Int32, System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindLast(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindLastIndex(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindLastIndex(System.Int32, System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.FindLastIndex(System.Int32, System.Int32, System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.ForEach(System.Action&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.Generic.IEnumerable&lt;Corrade.Servers.QValue&gt;.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.GetRange(System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.IndexOf(Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.IndexOf(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.IndexOf(Corrade.Servers.QValue, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.IndexOf(Corrade.Servers.QValue, System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Insert(System.Int32, Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.InsertRange(System.Int32, System.Collections.Generic.IEnumerable&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.LastIndexOf(Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.LastIndexOf(Corrade.Servers.QValue, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.LastIndexOf(Corrade.Servers.QValue, System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Remove(Corrade.Servers.QValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.Remove(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.RemoveAll(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.RemoveAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.RemoveRange(System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Reverse()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Reverse(System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Sort()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Sort(System.Collections.Generic.IComparer&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Sort(System.Comparison&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.ToArray()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.TrimExcess()</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.TrueForAll(System.Predicate&lt;Corrade.Servers.QValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Capacity</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Count</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.IsFixedSize</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.Generic.ICollection&lt;Corrade.Servers.QValue&gt;.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.IsReadOnly</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.ICollection.IsSynchronized</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.ICollection.SyncRoot</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">System.Collections.Generic.List&lt;Corrade.Servers.QValue&gt;.System.Collections.IList.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Corrade.Servers.html">Corrade.Servers</a></h6>
+  <h6><strong>Assembly</strong>: Corrade.dll</h6>
+  <h5 id="Corrade_Servers_QValueList_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class QValueList : List&lt;QValue&gt;, IList&lt;QValue&gt;, ICollection&lt;QValue&gt;, IList, ICollection, IReadOnlyList&lt;QValue&gt;, IReadOnlyCollection&lt;QValue&gt;, IEnumerable&lt;QValue&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Corrade_Servers_QValueList__ctor_" data-uid="Corrade.Servers.QValueList.#ctor*"></a>
+  <h4 id="Corrade_Servers_QValueList__ctor_System_String_" data-uid="Corrade.Servers.QValueList.#ctor(System.String)">QValueList(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValueList(string values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">values</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList__ctor_" data-uid="Corrade.Servers.QValueList.#ctor*"></a>
+  <h4 id="Corrade_Servers_QValueList__ctor_System_String___" data-uid="Corrade.Servers.QValueList.#ctor(System.String[])">QValueList(String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValueList(string[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Corrade_Servers_QValueList_AcceptWildcard_" data-uid="Corrade.Servers.QValueList.AcceptWildcard*"></a>
+  <h4 id="Corrade_Servers_QValueList_AcceptWildcard" data-uid="Corrade.Servers.QValueList.AcceptWildcard">AcceptWildcard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AcceptWildcard { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_AutoSort_" data-uid="Corrade.Servers.QValueList.AutoSort*"></a>
+  <h4 id="Corrade_Servers_QValueList_AutoSort" data-uid="Corrade.Servers.QValueList.AutoSort">AutoSort</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoSort { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_Item_" data-uid="Corrade.Servers.QValueList.Item*"></a>
+  <h4 id="Corrade_Servers_QValueList_Item_System_String___" data-uid="Corrade.Servers.QValueList.Item(System.String[])">Item[String[]]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValue this[params string[] candidates] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">candidates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Servers.QValue.html">QValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Corrade_Servers_QValueList_Add_" data-uid="Corrade.Servers.QValueList.Add*"></a>
+  <h4 id="Corrade_Servers_QValueList_Add_Corrade_Servers_QValue_" data-uid="Corrade.Servers.QValueList.Add(Corrade.Servers.QValue)">Add(QValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(QValue item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Servers.QValue.html">QValue</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_AddRange_" data-uid="Corrade.Servers.QValueList.AddRange*"></a>
+  <h4 id="Corrade_Servers_QValueList_AddRange_System_Collections_Generic_IEnumerable_Corrade_Servers_QValue__" data-uid="Corrade.Servers.QValueList.AddRange(System.Collections.Generic.IEnumerable{Corrade.Servers.QValue})">AddRange(IEnumerable&lt;QValue&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRange(IEnumerable&lt;QValue&gt; collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Corrade.Servers.QValue.html">QValue</a>&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_DefaultSort_" data-uid="Corrade.Servers.QValueList.DefaultSort*"></a>
+  <h4 id="Corrade_Servers_QValueList_DefaultSort" data-uid="Corrade.Servers.QValueList.DefaultSort">DefaultSort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DefaultSort()</code></pre>
+  </div>
+  
+  
+  <a id="Corrade_Servers_QValueList_Find_" data-uid="Corrade.Servers.QValueList.Find*"></a>
+  <h4 id="Corrade_Servers_QValueList_Find_System_String_" data-uid="Corrade.Servers.QValueList.Find(System.String)">Find(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValue Find(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Servers.QValue.html">QValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_FindHighestWeight_" data-uid="Corrade.Servers.QValueList.FindHighestWeight*"></a>
+  <h4 id="Corrade_Servers_QValueList_FindHighestWeight_System_String___" data-uid="Corrade.Servers.QValueList.FindHighestWeight(System.String[])">FindHighestWeight(String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValue FindHighestWeight(params string[] candidates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">candidates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Servers.QValue.html">QValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Servers_QValueList_FindPreferred_" data-uid="Corrade.Servers.QValueList.FindPreferred*"></a>
+  <h4 id="Corrade_Servers_QValueList_FindPreferred_System_String___" data-uid="Corrade.Servers.QValueList.FindPreferred(System.String[])">FindPreferred(String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QValue FindPreferred(params string[] candidates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">candidates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Servers.QValue.html">QValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IList</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.ICollection</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyList&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFP__1___0_System_String_">Reflection.GetFP&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFPInfo__1___0_System_String_">Reflection.GetFPInfo&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetPropertiesInfo__1___0_">Reflection.GetPropertiesInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFieldsInfo__1___0_">Reflection.GetFieldsInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_SerializeObject_System_Object_">ScriptSerializer.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectFromCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectFromCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectToCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectToCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_CreateMask__1_System_Collections_Generic_IEnumerable___0__">BitTwiddling.CreateMask&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_PreviousPowerOfTwo__1___0_">BitTwiddling.PreviousPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_IsPowerOfTwo__1___0_">BitTwiddling.IsPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

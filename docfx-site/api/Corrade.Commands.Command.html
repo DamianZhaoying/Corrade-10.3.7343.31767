@@ -1,0 +1,919 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Command
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Command
+   ">
+    <meta name="generator" content="docfx 2.48.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Corrade.Commands.Command">
+  
+  
+  <h1 id="Corrade_Commands_Command" data-uid="Corrade.Commands.Command" class="text-break">Class Command
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Command</span></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.Animation.html">Animation</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.AvatarZOffset.html">AvatarZOffset</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.BatchAnimation.html">BatchAnimation</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.ChangeAppearance.html">ChangeAppearance</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.Deanimate.html">Deanimate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.DeleteViewerEffect.html">DeleteViewerEffect</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.GetAnimations.html">GetAnimations</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.GetAttachments.html">GetAttachments</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.GetViewerEffects.html">GetViewerEffects</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.GetWearables.html">GetWearables</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.Rebake.html">Rebake</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Appearance.SetViewerEffect.html">SetViewerEffect</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.BatchGetAvatarDisplayName.html">BatchGetAvatarDisplayName</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.BatchGetProfileData.html">BatchGetProfileData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarClassifiedData.html">GetAvatarClassifiedData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarClassifieds.html">GetAvatarClassifieds</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarData.html">GetAvatarData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarDisplayName.html">GetAvatarDisplayName</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarGroupData.html">GetAvatarGroupData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarGroupsData.html">GetAvatarGroupsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarPickData.html">GetAvatarPickData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarPicks.html">GetAvatarPicks</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetAvatarsData.html">GetAvatarsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetProfileData.html">GetProfileData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Avatars.GetProfilesData.html">GetProfilesData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Communication.Conference.html">Conference</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Communication.GetConferenceMemberData.html">GetConferenceMemberData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Communication.GetConferenceMembersData.html">GetConferenceMembersData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Communication.Tell.html">Tell</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Communication.Typing.html">Typing</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.EstateTeleportUsersHome.html">EstateTeleportUsersHome</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.GetEstateBanList.html">GetEstateBanList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.GetEstateCovenant.html">GetEstateCovenant</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.GetEstateInfoData.html">GetEstateInfoData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.GetEstateList.html">GetEstateList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.GetMapAvatarPositions.html">GetMapAvatarPositions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.SetEstateCovenant.html">SetEstateCovenant</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Estate.SetEstateList.html">SetEstateList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.GetFriendData.html">GetFriendData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.GetFriendshipRequests.html">GetFriendshipRequests</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.GetFriendsList.html">GetFriendsList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.GrantFriendRights.html">GrantFriendRights</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.MapFriend.html">MapFriend</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.OfferFriendship.html">OfferFriendship</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.ReplyToFriendshipRequest.html">ReplyToFriendshipRequest</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Friends.TerminateFriendship.html">TerminateFriendship</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Grid.BatchAvatarKeyToName.html">BatchAvatarKeyToName</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Grid.BatchAvatarNameToKey.html">BatchAvatarNameToKey</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Grid.DirectorySearch.html">DirectorySearch</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Grid.GetGridRegionData.html">GetGridRegionData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Activate.html">Activate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.AddToRole.html">AddToRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Ban.html">Ban</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.BatchAddToRole.html">BatchAddToRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.BatchDeleteFromRole.html">BatchDeleteFromRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.BatchEject.html">BatchEject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.BatchInvite.html">BatchInvite</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.CreateGroup.html">CreateGroup</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.CreateRole.html">CreateRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Deactivate.html">Deactivate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.DeleteFromRole.html">DeleteFromRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.DeleteRole.html">DeleteRole</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Eject.html">Eject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetCurrentGroups.html">GetCurrentGroups</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetCurrentGroupsData.html">GetCurrentGroupsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupAccountSummaryData.html">GetGroupAccountSummaryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupData.html">GetGroupData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupInvites.html">GetGroupInvites</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupMemberData.html">GetGroupMemberData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupMembersData.html">GetGroupMembersData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetGroupsData.html">GetGroupsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetMemberRoles.html">GetMemberRoles</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetMembers.html">GetMembers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetMembersOnline.html">GetMembersOnline</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetRoleMembers.html">GetRoleMembers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetRolePowers.html">GetRolePowers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetRoles.html">GetRoles</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetRolesMembers.html">GetRolesMembers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.GetTitles.html">GetTitles</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Invite.html">Invite</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Join.html">Join</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Leave.html">Leave</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Moderate.html">Moderate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Notice.html">Notice</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.ReplyToGroupInvite.html">ReplyToGroupInvite</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.SetGroupData.html">SetGroupData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.SetRolePowers.html">SetRolePowers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.SoftBan.html">SoftBan</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.StartProposal.html">StartProposal</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Groups.Tag.html">Tag</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Attach.html">Attach</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.AttachObject.html">AttachObject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.BatchAttachObject.html">BatchAttachObject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.BatchDropObject.html">BatchDropObject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.BatchGive.html">BatchGive</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.BatchSetInventoryData.html">BatchSetInventoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.CopyNotecardAsset.html">CopyNotecardAsset</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.CreateLandmark.html">CreateLandmark</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.CreateNotecard.html">CreateNotecard</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Detach.html">Detach</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.DropObject.html">DropObject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.EmptyTrash.html">EmptyTrash</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.GetAssetData.html">GetAssetData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.GetInventoryData.html">GetInventoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.GetInventoryOffers.html">GetInventoryOffers</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.GetInventoryPath.html">GetInventoryPath</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Give.html">Give</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Inventory.html">Inventory</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.RemoveItem.html">RemoveItem</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.RenameItem.html">RenameItem</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.ReplyToInventoryOffer.html">ReplyToInventoryOffer</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.SearchInventory.html">SearchInventory</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.SetInventoryData.html">SetInventoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.TrashItem.html">TrashItem</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Unwear.html">Unwear</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.UpdateNotecard.html">UpdateNotecard</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Inventory.Wear.html">Wear</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Autopilot.html">Autopilot</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.BatchLure.html">BatchLure</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Crouch.html">Crouch</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Fly.html">Fly</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.FlyTo.html">FlyTo</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.GetMovementData.html">GetMovementData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.GetTeleportLures.html">GetTeleportLures</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.GoHome.html">GoHome</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Jump.html">Jump</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Lure.html">Lure</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Nudge.html">Nudge</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Relax.html">Relax</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.ReplyToTeleportLure.html">ReplyToTeleportLure</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Run.html">Run</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.SetMovementData.html">SetMovementData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Sit.html">Sit</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Stand.html">Stand</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Teleport.html">Teleport</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.Turn.html">Turn</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Movement.TurnTo.html">TurnTo</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchDerez.html">BatchDerez</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetObjectGroup.html">BatchSetObjectGroup</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetObjectPermission.html">BatchSetObjectPermission</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetObjectPositions.html">BatchSetObjectPositions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetObjectRotations.html">BatchSetObjectRotations</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetPrimitiveDescriptions.html">BatchSetPrimitiveDescriptions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetPrimitiveNames.html">BatchSetPrimitiveNames</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetPrimitivePositions.html">BatchSetPrimitivePositions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchSetPrimitiveRotations.html">BatchSetPrimitiveRotations</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.BatchUpdatePrimitiveInventory.html">BatchUpdatePrimitiveInventory</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ChangePrimitiveLink.html">ChangePrimitiveLink</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.Click.html">Click</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.CreatePrimitive.html">CreatePrimitive</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.Derez.html">Derez</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ExportDAE.html">ExportDAE</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ExportOAR.html">ExportOAR</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ExportXML.html">ExportXML</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetObjectData.html">GetObjectData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetObjectLink.html">GetObjectLink</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetObjectMediaData.html">GetObjectMediaData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetObjectPermissions.html">GetObjectPermissions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetObjectsData.html">GetObjectsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetParticleSystem.html">GetParticleSystem</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveBodyTypes.html">GetPrimitiveBodyTypes</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveData.html">GetPrimitiveData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveFlexibleData.html">GetPrimitiveFlexibleData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveInventory.html">GetPrimitiveInventory</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveInventoryData.html">GetPrimitiveInventoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveLightData.html">GetPrimitiveLightData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveOwners.html">GetPrimitiveOwners</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitivePayPrices.html">GetPrimitivePayPrices</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitivePhysicsData.html">GetPrimitivePhysicsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitivePropertiesData.html">GetPrimitivePropertiesData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveSculptData.html">GetPrimitiveSculptData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitivesData.html">GetPrimitivesData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveShapeData.html">GetPrimitiveShapeData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.GetPrimitiveTextureData.html">GetPrimitiveTextureData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.Grab.html">Grab</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ImportXML.html">ImportXML</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.ObjectDeed.html">ObjectDeed</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.PrimitiveBuy.html">PrimitiveBuy</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.Rez.html">Rez</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectGroup.html">SetObjectGroup</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectMediaData.html">SetObjectMediaData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectPermissions.html">SetObjectPermissions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectPosition.html">SetObjectPosition</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectRotation.html">SetObjectRotation</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectSaleInfo.html">SetObjectSaleInfo</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetObjectScale.html">SetObjectScale</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveDescription.html">SetPrimitiveDescription</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveFlags.html">SetPrimitiveFlags</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveFlexibleData.html">SetPrimitiveFlexibleData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveInventoryData.html">SetPrimitiveInventoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveLightData.html">SetPrimitiveLightData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveMaterial.html">SetPrimitiveMaterial</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveName.html">SetPrimitiveName</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitivePosition.html">SetPrimitivePosition</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveRotation.html">SetPrimitiveRotation</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveScale.html">SetPrimitiveScale</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveSculptData.html">SetPrimitiveSculptData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveShapeData.html">SetPrimitiveShapeData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.SetPrimitiveTextureData.html">SetPrimitiveTextureData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.Touch.html">Touch</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Objects.UpdatePrimitiveInventory.html">UpdatePrimitiveInventory</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Database.html">Database</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Download.html">Download</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.HTTP.html">HTTP</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.ListCommands.html">ListCommands</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Logs.html">Logs</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.MQTT.html">MQTT</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Notify.html">Notify</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Ping.html">Ping</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Upload.html">Upload</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Other.Version.html">Version</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.BatchSetParcelList.html">BatchSetParcelList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelData.html">GetParcelData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelDwell.html">GetParcelDwell</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelInfoData.html">GetParcelInfoData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelList.html">GetParcelList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelObjectResourceDetailData.html">GetParcelObjectResourceDetailData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetParcelObjectsResourceDetailData.html">GetParcelObjectsResourceDetailData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.GetRemoteParcelInfoData.html">GetRemoteParcelInfoData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelBuy.html">ParcelBuy</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelDeed.html">ParcelDeed</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelDivide.html">ParcelDivide</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelEject.html">ParcelEject</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelFreeze.html">ParcelFreeze</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelJoin.html">ParcelJoin</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelReclaim.html">ParcelReclaim</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ParcelRelease.html">ParcelRelease</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.SetParcelData.html">SetParcelData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.SetParcelList.html">SetParcelList</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Parcel.ToggleParcelFlags.html">ToggleParcelFlags</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.CompileScript.html">CompileScript</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.GetScriptDialogs.html">GetScriptDialogs</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.GetScriptPermissionRequests.html">GetScriptPermissionRequests</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.GetScriptRunning.html">GetScriptRunning</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.ReplyToScriptDialog.html">ReplyToScriptDialog</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.ReplyToScriptPermissionRequest.html">ReplyToScriptPermissionRequest</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.ScriptReset.html">ScriptReset</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.SetScriptRunning.html">SetScriptRunning</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Scripts.UpdateScript.html">UpdateScript</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.AddEvent.html">AddEvent</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.DeleteEvent.html">DeleteEvent</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.Divorce.html">Divorce</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.GetAccountHistoryData.html">GetAccountHistoryData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.GetAccountTransactionsData.html">GetAccountTransactionsData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.GetEventFormData.html">GetEventFormData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.GetGridLiveDataFeedData.html">GetGridLiveDataFeedData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.Marry.html">Marry</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.SecondLife.ModifyEvent.html">ModifyEvent</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.AddClassified.html">AddClassified</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.AddPick.html">AddPick</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.AgentAccess.html">AgentAccess</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.Away.html">Away</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.BatchMute.html">BatchMute</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.Busy.html">Busy</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.DeleteClassified.html">DeleteClassified</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.DeletePick.html">DeletePick</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.DisplayName.html">DisplayName</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.GetBalance.html">GetBalance</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.GetCameraData.html">GetCameraData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.GetMutes.html">GetMutes</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.GetNetworkData.html">GetNetworkData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.GetSelfData.html">GetSelfData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.Mute.html">Mute</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.Pay.html">Pay</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.SetCameraData.html">SetCameraData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.SetHome.html">SetHome</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.SetProfileData.html">SetProfileData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Self.Shoot.html">Shoot</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.CreateGrass.html">CreateGrass</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.CreateTree.html">CreateTree</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetAvatarPositions.html">GetAvatarPositions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetConnectedRegions.html">GetConnectedRegions</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetLandResourcesInfo.html">GetLandResourcesInfo</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionData.html">GetRegionData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionParcelLocations.html">GetRegionParcelLocations</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionParcelsBoundingBox.html">GetRegionParcelsBoundingBox</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionTerrainHeights.html">GetRegionTerrainHeights</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionTerrainTextures.html">GetRegionTerrainTextures</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetRegionTop.html">GetRegionTop</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.GetTerrainHeight.html">GetTerrainHeight</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.PlayGesture.html">PlayGesture</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.PlaySound.html">PlaySound</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.RestartRegion.html">RestartRegion</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.ReturnPrimitives.html">ReturnPrimitives</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SetRegionDebug.html">SetRegionDebug</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SetRegionInfo.html">SetRegionInfo</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SetRegionTerrainHeights.html">SetRegionTerrainHeights</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SetRegionTerrainTextures.html">SetRegionTerrainTextures</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SetRegionTerrainVariables.html">SetRegionTerrainVariables</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SimulatorPause.html">SimulatorPause</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.SimulatorResume.html">SimulatorResume</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.Terraform.html">Terraform</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.Simulator.Terrain.html">Terrain</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.AddConfigurationGroup.html">AddConfigurationGroup</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.Configuration.html">Configuration</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.Execute.html">Execute</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.GetConfigurationData.html">GetConfigurationData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.GetHeartbeatData.html">GetHeartbeatData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.Logout.html">Logout</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.ReadFile.html">ReadFile</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.RemoveConfigurationGroup.html">RemoveConfigurationGroup</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.SetConfigurationData.html">SetConfigurationData</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.Terminate.html">Terminate</a></div>
+      <div class="level2"><a class="xref" href="Corrade.Commands.System.WriteFile.html">WriteFile</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.IComparable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Corrade.Commands.html">Corrade.Commands</a></h6>
+  <h6><strong>Assembly</strong>: Corrade.dll</h6>
+  <h5 id="Corrade_Commands_Command_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Command : IDisposable, IComparable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Corrade_Commands_Command__ctor_" data-uid="Corrade.Commands.Command.#ctor*"></a>
+  <h4 id="Corrade_Commands_Command__ctor" data-uid="Corrade.Commands.Command.#ctor">Command()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Command()</code></pre>
+  </div>
+  
+  
+  <a id="Corrade_Commands_Command__ctor_" data-uid="Corrade.Commands.Command.#ctor*"></a>
+  <h4 id="Corrade_Commands_Command__ctor_Corrade_Corrade_Corrade_Configuration_Configuration_Corrade_Logging_Log_System_Threading_CancellationToken_" data-uid="Corrade.Commands.Command.#ctor(Corrade.Corrade,Corrade.Configuration.Configuration,Corrade.Logging.Log,System.Threading.CancellationToken)">Command(Corrade, Configuration, Log, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Command(Corrade corrade, Configuration configuration, Log log, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Corrade.html">Corrade</a></td>
+        <td><span class="parametername">corrade</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Corrade.Configuration.Configuration.html">Configuration</a></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Corrade.Logging.Log.html">Log</a></td>
+        <td><span class="parametername">log</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Corrade_Commands_Command_AttachmentPoints" data-uid="Corrade.Commands.Command.AttachmentPoints">AttachmentPoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly ConcurrentDictionary&lt;string, AttachmentPoint&gt; AttachmentPoints</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Concurrent.ConcurrentDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">OpenMetaverse.AttachmentPoint</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Corrade_Commands_Command_CancellationToken_" data-uid="Corrade.Commands.Command.CancellationToken*"></a>
+  <h4 id="Corrade_Commands_Command_CancellationToken" data-uid="Corrade.Commands.Command.CancellationToken">CancellationToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CancellationToken CancellationToken { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Category_" data-uid="Corrade.Commands.Command.Category*"></a>
+  <h4 id="Corrade_Commands_Command_Category" data-uid="Corrade.Commands.Command.Category">Category</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract CommandCategory Category { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Commands.CommandCategory.html">CommandCategory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Configuration_" data-uid="Corrade.Commands.Command.Configuration*"></a>
+  <h4 id="Corrade_Commands_Command_Configuration" data-uid="Corrade.Commands.Command.Configuration">Configuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Configuration Configuration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Configuration.Configuration.html">Configuration</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Corrade_" data-uid="Corrade.Commands.Command.Corrade*"></a>
+  <h4 id="Corrade_Commands_Command_Corrade" data-uid="Corrade.Commands.Command.Corrade">Corrade</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Corrade Corrade { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Corrade.html">Corrade</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Log_" data-uid="Corrade.Commands.Command.Log*"></a>
+  <h4 id="Corrade_Commands_Command_Log" data-uid="Corrade.Commands.Command.Log">Log</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Log Log { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Logging.Log.html">Log</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Name_" data-uid="Corrade.Commands.Command.Name*"></a>
+  <h4 id="Corrade_Commands_Command_Name" data-uid="Corrade.Commands.Command.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Permissions_" data-uid="Corrade.Commands.Command.Permissions*"></a>
+  <h4 id="Corrade_Commands_Command_Permissions" data-uid="Corrade.Commands.Command.Permissions">Permissions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string[] Permissions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Corrade_Commands_Command_CompareTo_" data-uid="Corrade.Commands.Command.CompareTo*"></a>
+  <h4 id="Corrade_Commands_Command_CompareTo_System_Object_" data-uid="Corrade.Commands.Command.CompareTo(System.Object)">CompareTo(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Dispose_" data-uid="Corrade.Commands.Command.Dispose*"></a>
+  <h4 id="Corrade_Commands_Command_Dispose" data-uid="Corrade.Commands.Command.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="Corrade_Commands_Command_Dispose_" data-uid="Corrade.Commands.Command.Dispose*"></a>
+  <h4 id="Corrade_Commands_Command_Dispose_System_Boolean_" data-uid="Corrade.Commands.Command.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_Execute_" data-uid="Corrade.Commands.Command.Execute*"></a>
+  <h4 id="Corrade_Commands_Command_Execute_Corrade_Commands_Arguments_" data-uid="Corrade.Commands.Command.Execute(Corrade.Commands.Arguments)">Execute(Arguments)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Dictionary&lt;string, string&gt;&gt; Execute(Arguments args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Commands.Arguments.html">Arguments</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Corrade_Commands_Command_ExecuteCommand_" data-uid="Corrade.Commands.Command.ExecuteCommand*"></a>
+  <h4 id="Corrade_Commands_Command_ExecuteCommand_Corrade_Configuration_Group_Corrade_Commands_Arguments_" data-uid="Corrade.Commands.Command.ExecuteCommand(Corrade.Configuration.Group,Corrade.Commands.Arguments)">ExecuteCommand(Group, Arguments)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task&lt;string&gt; ExecuteCommand(Group group, Arguments args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Corrade.Configuration.Group.html">Group</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Corrade.Commands.Arguments.html">Arguments</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.IComparable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFP__1___0_System_String_">Reflection.GetFP&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFPInfo__1___0_System_String_">Reflection.GetFPInfo&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetPropertiesInfo__1___0_">Reflection.GetPropertiesInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.Reflection.html#Corrade_Serialization_Reflection_GetFieldsInfo__1___0_">Reflection.GetFieldsInfo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_SerializeObject_System_Object_">ScriptSerializer.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectFromCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectFromCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Serialization.ScriptSerializer.html#Corrade_Serialization_ScriptSerializer_ObjectToCSV__1___0_Corrade_Languages_CSV_">ScriptSerializer.ObjectToCSV&lt;T&gt;(T, CSV)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_PreviousPowerOfTwo__1___0_">BitTwiddling.PreviousPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Corrade.Helpers.Bits.BitTwiddling.html#Corrade_Helpers_Bits_BitTwiddling_IsPowerOfTwo__1___0_">BitTwiddling.IsPowerOfTwo&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
